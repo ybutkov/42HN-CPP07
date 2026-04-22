@@ -6,7 +6,7 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 22:33:39 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/04/21 23:45:38 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/04/22 14:57:15 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ void	iter(const T *arr, const std::size_t length, void (*f)(const T&))
     for (std::size_t i = 0; i < length; ++i)
         f(arr[i]);
 }
+
+// Functions for test
 
 template <typename T>
 void f_non_const(T& value)

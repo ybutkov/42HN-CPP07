@@ -6,14 +6,13 @@
 /*   By: ybutkov <ybutkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 17:32:01 by ybutkov           #+#    #+#             */
-/*   Updated: 2026/04/21 23:46:23 by ybutkov          ###   ########.fr       */
+/*   Updated: 2026/04/21 23:47:05 by ybutkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "iter.hpp"
 #include <iostream>
-
 
 
 int main()
